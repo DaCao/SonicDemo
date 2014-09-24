@@ -24,8 +24,8 @@
     // audioObj1 = Sonic::addAudioObject("input1mono.wav", -1*.7071, 0, .7071);
     // 60 degree elevation
     // audioObj1 = Sonic::addAudioObject("input1mono.wav", -1*.866, 0, .866);
-    audioObj2 = Sonic::addAudioObject("3m40stest.wav", 0, 0, 0);
-    
+    // audioObj2 = Sonic::addAudioObject("3m40stest.wav", 0, 0, 0);
+    audioObj1 = Sonic::addAudioObject("1minutetest.wav", 0, 1, 0);    
     Sonic::setPlayerBearing(0);
     Sonic::setPlayerLocation(0, 0, 0);
     Sonic::startPlaying();
