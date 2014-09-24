@@ -1,3 +1,6 @@
 [submodule "SonicLibrary"]
 	path = SonicLibrary
 	url = /Users/alexcannon/SonicLibrary/
+[submodule "Sonic"]
+	path = Sonic
+	url = git://github.com/philadelphiagamelab/Sonic.git
