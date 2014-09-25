@@ -1,3 +1,9 @@
 # SonicDemo
 
-SonicDemo is a toy iOS demo for the [Philadelphia Game Lab](http://www.philadelphiagamelab.org)'s open source 3D Audio library, [Sonic](https://github.com/philadelphiagamelab/Sonic). This is a good starting point for developing other iOS apps with Sonic, but if you'd rather start from scratch you can follow the [Sonic setup instructions](https://github.com/PhiladelphiaGameLab/Sonic/blob/master/SETUP.md). To use SonicDemo as a starting point for your own demo or testing app, just fork or clone it.
+SonicDemo is one of several iOS demo apps for the [Philadelphia Game Lab](http://www.philadelphiagamelab.org)'s open source 3D Audio library, [Sonic](https://github.com/philadelphiagamelab/Sonic). As with all Sonic apps, SonicDemo requires headphones.
+
+In contrast with the other demo apps, SonicDemo doesn't do a whole lot. It is meant more as a starting point for developing other iOS apps with Sonic, but if you'd rather start from scratch you can follow the [Sonic setup instructions](https://github.com/PhiladelphiaGameLab/Sonic/blob/master/SETUP.md). To use SonicDemo as a starting point for your own iOS Sonic app, just fork or clone it.
+
+#### More info
+
+For a detailed description of the Sonic 3D-Audio project, as well as updates and other information, visit the [Sonic project webpage](sonic.philadelphiagamelab.org). For links to other Sonic demo apps, check out [the Sonic README](https://github.com/PhiladelphiaGameLab/Sonic/blob/master/README.md).
