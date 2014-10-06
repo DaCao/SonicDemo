@@ -32,9 +32,9 @@
     audioObj3 = Sonic::addAudioObject("boom.wav", 0, 1, 0);
     audioObj4 = Sonic::addAudioObject("dingding.wav", 0, 1, 0);
     audioObj5 = Sonic::addAudioObject("knock_woodpecker.wav", 0, 1, 0);
-    //audioObj6 = Sonic::addAudioObject("fx.wav", 0, 1, 0);
-    audioObj7 = Sonic::addAudioObject("skrape.wav", 0, 1, 0);
-    audioObj8 = Sonic::addAudioObject("knock_woodpecker.wav", 0, 0, 0);
+    audioObj6 = Sonic::addAudioObject("fx.wav", 0, 1, 0);
+    //audioObj7 = Sonic::addAudioObject("skrape.wav", 0, 1, 0);
+    //audioObj8 = Sonic::addAudioObject("knock_woodpecker.wav", 0, 0, 0);
     
     Sonic::setPlayerBearing(0);
     Sonic::setPlayerLocation(0, 0, 0);
