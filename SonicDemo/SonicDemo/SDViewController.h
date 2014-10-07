@@ -21,6 +21,8 @@
 @property AudioObj *audioObj6;
 @property AudioObj *audioObj7;
 @property AudioObj *audioObj8;
+@property AudioObj *audioObj9;
+@property AudioObj *audioObj10;
 @property CustomAudioUnit *customAudioUnitInstance;
 
 @end

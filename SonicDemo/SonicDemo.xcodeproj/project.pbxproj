@@ -51,6 +51,24 @@
 		EB1419E519DC5E1D00EC8AD4 /* wibble.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1419DD19DC5E1D00EC8AD4 /* wibble.wav */; };
 		EB1419E619DC5E1D00EC8AD4 /* wuffle.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1419DE19DC5E1D00EC8AD4 /* wuffle.wav */; };
 		EB1419F519DC6EED00EC8AD4 /* fhtdit.cc in Sources */ = {isa = PBXBuildFile; fileRef = EB1419EB19DC6EED00EC8AD4 /* fhtdit.cc */; };
+		EB141A8919E4504100EC8AD4 /* LITS Amp mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8519E4504100EC8AD4 /* LITS Amp mono.wav */; };
+		EB141A8A19E4504100EC8AD4 /* LITS Voc mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8619E4504100EC8AD4 /* LITS Voc mono.wav */; };
+		EB141A8B19E4504100EC8AD4 /* LITS Piano mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8719E4504100EC8AD4 /* LITS Piano mono.wav */; };
+		EB141A8C19E4504100EC8AD4 /* LITS Flute mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8819E4504100EC8AD4 /* LITS Flute mono.wav */; };
+		EB141A9B19E458D500EC8AD4 /* Disc Xpander mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8D19E458D500EC8AD4 /* Disc Xpander mono.wav */; };
+		EB141A9C19E458D500EC8AD4 /* Disc Woo Voc mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8E19E458D500EC8AD4 /* Disc Woo Voc mono.wav */; };
+		EB141A9D19E458D500EC8AD4 /* Disc Vostok Riff mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A8F19E458D500EC8AD4 /* Disc Vostok Riff mono.wav */; };
+		EB141A9E19E458D500EC8AD4 /* Disc Vostok Bass mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9019E458D500EC8AD4 /* Disc Vostok Bass mono.wav */; };
+		EB141A9F19E458D500EC8AD4 /* Disc Tone mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9119E458D500EC8AD4 /* Disc Tone mono.wav */; };
+		EB141AA019E458D500EC8AD4 /* Disc Riff mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9219E458D500EC8AD4 /* Disc Riff mono.wav */; };
+		EB141AA119E458D500EC8AD4 /* Disc Piano mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9319E458D500EC8AD4 /* Disc Piano mono.wav */; };
+		EB141AA219E458D500EC8AD4 /* Disc Perc mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9419E458D500EC8AD4 /* Disc Perc mono.wav */; };
+		EB141AA319E458D500EC8AD4 /* Disc Marimba mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9519E458D500EC8AD4 /* Disc Marimba mono.wav */; };
+		EB141AA419E458D500EC8AD4 /* Disc Lo Tone mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9619E458D500EC8AD4 /* Disc Lo Tone mono.wav */; };
+		EB141AA519E458D500EC8AD4 /* Disc Lead mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9719E458D500EC8AD4 /* Disc Lead mono.wav */; };
+		EB141AA619E458D500EC8AD4 /* Disc Drums mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */; };
+		EB141AA719E458D500EC8AD4 /* Disc BV mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */; };
+		EB141AA819E458D500EC8AD4 /* Disc Bass mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -146,6 +164,24 @@
 		EB1419F219DC6EED00EC8AD4 /* sincos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sincos.h; sourceTree = "<group>"; };
 		EB1419F319DC6EED00EC8AD4 /* sumdiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sumdiff.h; sourceTree = "<group>"; };
 		EB1419F419DC6EED00EC8AD4 /* swap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = swap.h; sourceTree = "<group>"; };
+		EB141A8519E4504100EC8AD4 /* LITS Amp mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "LITS Amp mono.wav"; sourceTree = "<group>"; };
+		EB141A8619E4504100EC8AD4 /* LITS Voc mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "LITS Voc mono.wav"; sourceTree = "<group>"; };
+		EB141A8719E4504100EC8AD4 /* LITS Piano mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "LITS Piano mono.wav"; sourceTree = "<group>"; };
+		EB141A8819E4504100EC8AD4 /* LITS Flute mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "LITS Flute mono.wav"; sourceTree = "<group>"; };
+		EB141A8D19E458D500EC8AD4 /* Disc Xpander mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Xpander mono.wav"; sourceTree = "<group>"; };
+		EB141A8E19E458D500EC8AD4 /* Disc Woo Voc mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Woo Voc mono.wav"; sourceTree = "<group>"; };
+		EB141A8F19E458D500EC8AD4 /* Disc Vostok Riff mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Vostok Riff mono.wav"; sourceTree = "<group>"; };
+		EB141A9019E458D500EC8AD4 /* Disc Vostok Bass mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Vostok Bass mono.wav"; sourceTree = "<group>"; };
+		EB141A9119E458D500EC8AD4 /* Disc Tone mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Tone mono.wav"; sourceTree = "<group>"; };
+		EB141A9219E458D500EC8AD4 /* Disc Riff mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Riff mono.wav"; sourceTree = "<group>"; };
+		EB141A9319E458D500EC8AD4 /* Disc Piano mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Piano mono.wav"; sourceTree = "<group>"; };
+		EB141A9419E458D500EC8AD4 /* Disc Perc mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Perc mono.wav"; sourceTree = "<group>"; };
+		EB141A9519E458D500EC8AD4 /* Disc Marimba mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Marimba mono.wav"; sourceTree = "<group>"; };
+		EB141A9619E458D500EC8AD4 /* Disc Lo Tone mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Lo Tone mono.wav"; sourceTree = "<group>"; };
+		EB141A9719E458D500EC8AD4 /* Disc Lead mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Lead mono.wav"; sourceTree = "<group>"; };
+		EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Drums mono.wav"; sourceTree = "<group>"; };
+		EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc BV mono.wav"; sourceTree = "<group>"; };
+		EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Bass mono.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -225,6 +261,24 @@
 		5EC6226F19D3310C0076399E /* InputData */ = {
 			isa = PBXGroup;
 			children = (
+				EB141A8D19E458D500EC8AD4 /* Disc Xpander mono.wav */,
+				EB141A8E19E458D500EC8AD4 /* Disc Woo Voc mono.wav */,
+				EB141A8F19E458D500EC8AD4 /* Disc Vostok Riff mono.wav */,
+				EB141A9019E458D500EC8AD4 /* Disc Vostok Bass mono.wav */,
+				EB141A9119E458D500EC8AD4 /* Disc Tone mono.wav */,
+				EB141A9219E458D500EC8AD4 /* Disc Riff mono.wav */,
+				EB141A9319E458D500EC8AD4 /* Disc Piano mono.wav */,
+				EB141A9419E458D500EC8AD4 /* Disc Perc mono.wav */,
+				EB141A9519E458D500EC8AD4 /* Disc Marimba mono.wav */,
+				EB141A9619E458D500EC8AD4 /* Disc Lo Tone mono.wav */,
+				EB141A9719E458D500EC8AD4 /* Disc Lead mono.wav */,
+				EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */,
+				EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */,
+				EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */,
+				EB141A8519E4504100EC8AD4 /* LITS Amp mono.wav */,
+				EB141A8619E4504100EC8AD4 /* LITS Voc mono.wav */,
+				EB141A8719E4504100EC8AD4 /* LITS Piano mono.wav */,
+				EB141A8819E4504100EC8AD4 /* LITS Flute mono.wav */,
 				EB1419D719DC5E1D00EC8AD4 /* boom.wav */,
 				EB1419D819DC5E1D00EC8AD4 /* dingding.wav */,
 				EB1419D919DC5E1D00EC8AD4 /* fx.wav */,
@@ -462,22 +516,40 @@
 			files = (
 				EB1419E119DC5E1D00EC8AD4 /* fx.wav in Resources */,
 				EB1419E419DC5E1D00EC8AD4 /* solo.wav in Resources */,
+				EB141A9C19E458D500EC8AD4 /* Disc Woo Voc mono.wav in Resources */,
 				5EC6229319D3310C0076399E /* 1minutetest.wav in Resources */,
+				EB141A9F19E458D500EC8AD4 /* Disc Tone mono.wav in Resources */,
 				5EC6229219D3310C0076399E /* .gitignore in Resources */,
 				5EC6229819D3310C0076399E /* README.md in Resources */,
+				EB141A9B19E458D500EC8AD4 /* Disc Xpander mono.wav in Resources */,
+				EB141AA319E458D500EC8AD4 /* Disc Marimba mono.wav in Resources */,
 				EB1419DF19DC5E1D00EC8AD4 /* boom.wav in Resources */,
+				EB141A8A19E4504100EC8AD4 /* LITS Voc mono.wav in Resources */,
+				EB141AA819E458D500EC8AD4 /* Disc Bass mono.wav in Resources */,
+				EB141AA119E458D500EC8AD4 /* Disc Piano mono.wav in Resources */,
 				EB1419E319DC5E1D00EC8AD4 /* skrape.wav in Resources */,
 				EB1419E519DC5E1D00EC8AD4 /* wibble.wav in Resources */,
 				EB1419E019DC5E1D00EC8AD4 /* dingding.wav in Resources */,
+				EB141AA719E458D500EC8AD4 /* Disc BV mono.wav in Resources */,
+				EB141AA219E458D500EC8AD4 /* Disc Perc mono.wav in Resources */,
 				EB1419E619DC5E1D00EC8AD4 /* wuffle.wav in Resources */,
 				5EC9EFD019D1FAC300CBF4FF /* Images.xcassets in Resources */,
 				5EC6229419D3310C0076399E /* 3m40stest.wav in Resources */,
 				5EC9EFC219D1FAC200CBF4FF /* InfoPlist.strings in Resources */,
+				EB141A8C19E4504100EC8AD4 /* LITS Flute mono.wav in Resources */,
+				EB141A8B19E4504100EC8AD4 /* LITS Piano mono.wav in Resources */,
 				5EC6229619D3310C0076399E /* input1mono.wav in Resources */,
 				EB1419E219DC5E1D00EC8AD4 /* knock_woodpecker.wav in Resources */,
 				5EC9EFCB19D1FAC300CBF4FF /* Main.storyboard in Resources */,
 				5EC6229119D3310C0076399E /* .gitattributes in Resources */,
+				EB141A9E19E458D500EC8AD4 /* Disc Vostok Bass mono.wav in Resources */,
 				5EC6229519D3310C0076399E /* catmeow.wav in Resources */,
+				EB141AA619E458D500EC8AD4 /* Disc Drums mono.wav in Resources */,
+				EB141AA019E458D500EC8AD4 /* Disc Riff mono.wav in Resources */,
+				EB141A8919E4504100EC8AD4 /* LITS Amp mono.wav in Resources */,
+				EB141AA519E458D500EC8AD4 /* Disc Lead mono.wav in Resources */,
+				EB141AA419E458D500EC8AD4 /* Disc Lo Tone mono.wav in Resources */,
+				EB141A9D19E458D500EC8AD4 /* Disc Vostok Riff mono.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
