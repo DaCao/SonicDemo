@@ -28,9 +28,9 @@
     
     
     audioObj1 = Sonic::addAudioObject("LITS Voc mono.wav", 0, 1, 0);
-    audioObj2 = Sonic::addAudioObject("LITS Piano mono.wav", 0, 1, 0);
+    //audioObj2 = Sonic::addAudioObject("LITS Piano mono.wav", 0, 1, 0);
     audioObj3 = Sonic::addAudioObject("LITS Flute mono.wav", 0, 1, 0);
-    audioObj4 = Sonic::addAudioObject("LITS Amb mono.wav", 0, 1, 0);
+    //audioObj4 = Sonic::addAudioObject("LITS Amb mono.wav", 0, 1, 0);
     
     
     //audioObj1 = Sonic::addAudioObject("Disc Piano mono.wav", 0, 1, 0);
