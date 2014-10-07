@@ -27,16 +27,18 @@
     // audioObj2 = Sonic::addAudioObject("3m40stest.wav", 0, 0, 0);
     
     
-    //audioObj1 = Sonic::addAudioObject("LITS Voc mono.wav", 0, 1, 0);
-    //audioObj2 = Sonic::addAudioObject("LITS Piano mono.wav", 0, 1, 0);
-    //audioObj3 = Sonic::addAudioObject("LITS Flute mono.wav", 0, 1, 0);
-    //audioObj4 = Sonic::addAudioObject("LITS Amb mono.wav", 0, 1, 0);
-    audioObj1 = Sonic::addAudioObject("Disc Piano mono.wav", 0, 1, 0);
+    audioObj1 = Sonic::addAudioObject("LITS Voc mono.wav", 0, 1, 0);
+    audioObj2 = Sonic::addAudioObject("LITS Piano mono.wav", 0, 1, 0);
+    audioObj3 = Sonic::addAudioObject("LITS Flute mono.wav", 0, 1, 0);
+    audioObj4 = Sonic::addAudioObject("LITS Amb mono.wav", 0, 1, 0);
+    
+    
+    //audioObj1 = Sonic::addAudioObject("Disc Piano mono.wav", 0, 1, 0);
     //audioObj2 = Sonic::addAudioObject("Disc Lead mono.wav", 0, 1, 0);
-    audioObj3 = Sonic::addAudioObject("Disc Bass mono.wav", 0, 1, 0);
-    audioObj4 = Sonic::addAudioObject("Disc Drums mono.wav", 0, 1, 0);
+    //audioObj3 = Sonic::addAudioObject("Disc Bass mono.wav", 0, 1, 0);
+    //audioObj4 = Sonic::addAudioObject("Disc Drums mono.wav", 0, 1, 0);
     //audioObj5 = Sonic::addAudioObject("Disc Tone mono.wav", 0, 1, 0);
-    audioObj6 = Sonic::addAudioObject("Disc Woo Voc mono.wav", 0, 1, 0);
+    //audioObj6 = Sonic::addAudioObject("Disc Woo Voc mono.wav", 0, 1, 0);
     //audioObj7 = Sonic::addAudioObject("Disc Riff mono.wav", 0, 1, 0);
     //audioObj8 = Sonic::addAudioObject("Disc Vostok Riff mono.wav", 0, 0, 0);
     //audioObj9 = Sonic::addAudioObject("Disc Vostok Bass mono.wav", 0, 0, 0);
