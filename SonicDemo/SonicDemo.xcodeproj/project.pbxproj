@@ -69,6 +69,7 @@
 		EB141AA619E458D500EC8AD4 /* Disc Drums mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */; };
 		EB141AA719E458D500EC8AD4 /* Disc BV mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */; };
 		EB141AA819E458D500EC8AD4 /* Disc Bass mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */; };
+		EBED86131A3A9C6D006CB3EA /* fhtdit2.cc in Sources */ = {isa = PBXBuildFile; fileRef = EBED86021A3A9C6D006CB3EA /* fhtdit2.cc */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +183,23 @@
 		EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Drums mono.wav"; sourceTree = "<group>"; };
 		EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc BV mono.wav"; sourceTree = "<group>"; };
 		EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Bass mono.wav"; sourceTree = "<group>"; };
+		EBED86021A3A9C6D006CB3EA /* fhtdit2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fhtdit2.cc; sourceTree = "<group>"; };
+		EBED86031A3A9C6D006CB3EA /* revbinpermute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revbinpermute.h; sourceTree = "<group>"; };
+		EBED86041A3A9C6D006CB3EA /* shortfhtdifcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortfhtdifcore.h; sourceTree = "<group>"; };
+		EBED86051A3A9C6D006CB3EA /* shortrevbinpermute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortrevbinpermute.h; sourceTree = "<group>"; };
+		EBED86061A3A9C6D006CB3EA /* bithigh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bithigh.h; sourceTree = "<group>"; };
+		EBED86071A3A9C6D006CB3EA /* bitlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitlow.h; sourceTree = "<group>"; };
+		EBED86081A3A9C6D006CB3EA /* revbin-upd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "revbin-upd.h"; sourceTree = "<group>"; };
+		EBED86091A3A9C6D006CB3EA /* revbin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revbin.h; sourceTree = "<group>"; };
+		EBED860A1A3A9C6D006CB3EA /* bitasm-sse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bitasm-sse.h"; sourceTree = "<group>"; };
+		EBED860B1A3A9C6D006CB3EA /* bitasm-i386.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bitasm-i386.h"; sourceTree = "<group>"; };
+		EBED860C1A3A9C6D006CB3EA /* bitasm-amd64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bitasm-amd64.h"; sourceTree = "<group>"; };
+		EBED860D1A3A9C6D006CB3EA /* bitldeq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitldeq.h; sourceTree = "<group>"; };
+		EBED860E1A3A9C6D006CB3EA /* bitsperlong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitsperlong.h; sourceTree = "<group>"; };
+		EBED860F1A3A9C6D006CB3EA /* bithigh-edge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bithigh-edge.h"; sourceTree = "<group>"; };
+		EBED86101A3A9C6D006CB3EA /* bitswap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitswap.h; sourceTree = "<group>"; };
+		EBED86111A3A9C6D006CB3EA /* bitasm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitasm.h; sourceTree = "<group>"; };
+		EBED86121A3A9C6D006CB3EA /* bit2pow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bit2pow.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +249,23 @@
 		5EC6226219D3310C0076399E /* include */ = {
 			isa = PBXGroup;
 			children = (
+				EBED86021A3A9C6D006CB3EA /* fhtdit2.cc */,
+				EBED86031A3A9C6D006CB3EA /* revbinpermute.h */,
+				EBED86041A3A9C6D006CB3EA /* shortfhtdifcore.h */,
+				EBED86051A3A9C6D006CB3EA /* shortrevbinpermute.h */,
+				EBED86061A3A9C6D006CB3EA /* bithigh.h */,
+				EBED86071A3A9C6D006CB3EA /* bitlow.h */,
+				EBED86081A3A9C6D006CB3EA /* revbin-upd.h */,
+				EBED86091A3A9C6D006CB3EA /* revbin.h */,
+				EBED860A1A3A9C6D006CB3EA /* bitasm-sse.h */,
+				EBED860B1A3A9C6D006CB3EA /* bitasm-i386.h */,
+				EBED860C1A3A9C6D006CB3EA /* bitasm-amd64.h */,
+				EBED860D1A3A9C6D006CB3EA /* bitldeq.h */,
+				EBED860E1A3A9C6D006CB3EA /* bitsperlong.h */,
+				EBED860F1A3A9C6D006CB3EA /* bithigh-edge.h */,
+				EBED86101A3A9C6D006CB3EA /* bitswap.h */,
+				EBED86111A3A9C6D006CB3EA /* bitasm.h */,
+				EBED86121A3A9C6D006CB3EA /* bit2pow.h */,
 				EB1419E719DC6EED00EC8AD4 /* cmult.h */,
 				EB1419E819DC6EED00EC8AD4 /* complextype.h */,
 				EB1419E919DC6EED00EC8AD4 /* constants.h */,
@@ -569,6 +604,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB1419F519DC6EED00EC8AD4 /* fhtdit.cc in Sources */,
+				EBED86131A3A9C6D006CB3EA /* fhtdit2.cc in Sources */,
 				5EC6229C19D3310C0076399E /* fft.cpp in Sources */,
 				5EC622A219D3310C0076399E /* WavObject.mm in Sources */,
 				5EC6229A19D3310C0076399E /* AudioObj.cpp in Sources */,
