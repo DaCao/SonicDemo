@@ -18,7 +18,6 @@
 		5EC6229919D3310C0076399E /* Sonic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228419D3310C0076399E /* Sonic.cpp */; };
 		5EC6229A19D3310C0076399E /* AudioObj.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228719D3310C0076399E /* AudioObj.cpp */; };
 		5EC6229B19D3310C0076399E /* complex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228819D3310C0076399E /* complex.cpp */; };
-		5EC6229C19D3310C0076399E /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228919D3310C0076399E /* fft.cpp */; };
 		5EC6229D19D3310C0076399E /* location.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228A19D3310C0076399E /* location.cpp */; };
 		5EC6229E19D3310C0076399E /* mit_hrtf_lib.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228B19D3310C0076399E /* mit_hrtf_lib.c */; };
 		5EC6229F19D3310C0076399E /* Mixer3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5EC6228C19D3310C0076399E /* Mixer3D.cpp */; };
@@ -42,6 +41,7 @@
 		5EC9EFD919D1FAC300CBF4FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EC9EFBB19D1FAC200CBF4FF /* UIKit.framework */; };
 		5EC9EFE119D1FAC300CBF4FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5EC9EFDF19D1FAC300CBF4FF /* InfoPlist.strings */; };
 		5EC9EFE319D1FAC300CBF4FF /* SonicDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC9EFE219D1FAC300CBF4FF /* SonicDemoTests.m */; };
+		EB10B4411ADDE2C200042583 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB10B4401ADDE2C200042583 /* Accelerate.framework */; };
 		EB1419DF19DC5E1D00EC8AD4 /* boom.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1419D719DC5E1D00EC8AD4 /* boom.wav */; };
 		EB1419E019DC5E1D00EC8AD4 /* dingding.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1419D819DC5E1D00EC8AD4 /* dingding.wav */; };
 		EB1419E119DC5E1D00EC8AD4 /* fx.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB1419D919DC5E1D00EC8AD4 /* fx.wav */; };
@@ -69,6 +69,7 @@
 		EB141AA619E458D500EC8AD4 /* Disc Drums mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */; };
 		EB141AA719E458D500EC8AD4 /* Disc BV mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */; };
 		EB141AA819E458D500EC8AD4 /* Disc Bass mono.wav in Resources */ = {isa = PBXBuildFile; fileRef = EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */; };
+		EB40B5EA1ADF005100A1A849 /* fft.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EB40B5E91ADF005100A1A849 /* fft.cpp */; };
 		EBED86131A3A9C6D006CB3EA /* fhtdit2.cc in Sources */ = {isa = PBXBuildFile; fileRef = EBED86021A3A9C6D006CB3EA /* fhtdit2.cc */; };
 /* End PBXBuildFile section */
 
@@ -116,7 +117,6 @@
 		5EC6228519D3310C0076399E /* Sonic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sonic.h; sourceTree = "<group>"; };
 		5EC6228719D3310C0076399E /* AudioObj.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AudioObj.cpp; sourceTree = "<group>"; };
 		5EC6228819D3310C0076399E /* complex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = complex.cpp; sourceTree = "<group>"; };
-		5EC6228919D3310C0076399E /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft.cpp; sourceTree = "<group>"; };
 		5EC6228A19D3310C0076399E /* location.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = location.cpp; sourceTree = "<group>"; };
 		5EC6228B19D3310C0076399E /* mit_hrtf_lib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mit_hrtf_lib.c; sourceTree = "<group>"; };
 		5EC6228C19D3310C0076399E /* Mixer3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Mixer3D.cpp; sourceTree = "<group>"; };
@@ -145,6 +145,7 @@
 		5EC9EFDE19D1FAC300CBF4FF /* SonicDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SonicDemoTests-Info.plist"; sourceTree = "<group>"; };
 		5EC9EFE019D1FAC300CBF4FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5EC9EFE219D1FAC300CBF4FF /* SonicDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SonicDemoTests.m; sourceTree = "<group>"; };
+		EB10B4401ADDE2C200042583 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		EB1419D719DC5E1D00EC8AD4 /* boom.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = boom.wav; sourceTree = "<group>"; };
 		EB1419D819DC5E1D00EC8AD4 /* dingding.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = dingding.wav; sourceTree = "<group>"; };
 		EB1419D919DC5E1D00EC8AD4 /* fx.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fx.wav; sourceTree = "<group>"; };
@@ -183,6 +184,7 @@
 		EB141A9819E458D500EC8AD4 /* Disc Drums mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Drums mono.wav"; sourceTree = "<group>"; };
 		EB141A9919E458D500EC8AD4 /* Disc BV mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc BV mono.wav"; sourceTree = "<group>"; };
 		EB141A9A19E458D500EC8AD4 /* Disc Bass mono.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "Disc Bass mono.wav"; sourceTree = "<group>"; };
+		EB40B5E91ADF005100A1A849 /* fft.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fft.cpp; sourceTree = "<group>"; };
 		EBED86021A3A9C6D006CB3EA /* fhtdit2.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fhtdit2.cc; sourceTree = "<group>"; };
 		EBED86031A3A9C6D006CB3EA /* revbinpermute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = revbinpermute.h; sourceTree = "<group>"; };
 		EBED86041A3A9C6D006CB3EA /* shortfhtdifcore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shortfhtdifcore.h; sourceTree = "<group>"; };
@@ -207,6 +209,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB10B4411ADDE2C200042583 /* Accelerate.framework in Frameworks */,
 				5EC622A619D331440076399E /* AudioToolbox.framework in Frameworks */,
 				5EC622A719D331440076399E /* CoreAudio.framework in Frameworks */,
 				5EC9EFBA19D1FAC200CBF4FF /* CoreGraphics.framework in Frameworks */,
@@ -384,8 +387,8 @@
 				5EC6228719D3310C0076399E /* AudioObj.cpp */,
 				EB1419EB19DC6EED00EC8AD4 /* fhtdit.cc */,
 				5EC6228819D3310C0076399E /* complex.cpp */,
-				5EC6228919D3310C0076399E /* fft.cpp */,
 				5EC6228A19D3310C0076399E /* location.cpp */,
+				EB40B5E91ADF005100A1A849 /* fft.cpp */,
 				5EC6228B19D3310C0076399E /* mit_hrtf_lib.c */,
 				5EC6228C19D3310C0076399E /* Mixer3D.cpp */,
 				5EC6228D19D3310C0076399E /* Player.cpp */,
@@ -419,6 +422,7 @@
 		5EC9EFB619D1FAC200CBF4FF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB10B4401ADDE2C200042583 /* Accelerate.framework */,
 				5EC622A419D331440076399E /* AudioToolbox.framework */,
 				5EC622A519D331440076399E /* CoreAudio.framework */,
 				5EC9EFB719D1FAC200CBF4FF /* Foundation.framework */,
@@ -605,7 +609,6 @@
 			files = (
 				EB1419F519DC6EED00EC8AD4 /* fhtdit.cc in Sources */,
 				EBED86131A3A9C6D006CB3EA /* fhtdit2.cc in Sources */,
-				5EC6229C19D3310C0076399E /* fft.cpp in Sources */,
 				5EC622A219D3310C0076399E /* WavObject.mm in Sources */,
 				5EC6229A19D3310C0076399E /* AudioObj.cpp in Sources */,
 				5EC9EFC419D1FAC200CBF4FF /* main.m in Sources */,
@@ -620,6 +623,7 @@
 				5EC9EFCE19D1FAC300CBF4FF /* SDViewController.mm in Sources */,
 				5EC6229B19D3310C0076399E /* complex.cpp in Sources */,
 				5EC9EFC819D1FAC300CBF4FF /* SDAppDelegate.m in Sources */,
+				EB40B5EA1ADF005100A1A849 /* fft.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
