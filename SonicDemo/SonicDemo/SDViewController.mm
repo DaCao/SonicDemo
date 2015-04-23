@@ -23,13 +23,13 @@
     // 45 degree elevation
     // audioObj1 = Sonic::addAudioObject("input1mono.wav", -1*.7071, 0, .7071);
     // 60 degree elevation
-    // audioObj1 = Sonic::addAudioObject("input1mono.wav", -1*.866, 0, .866);
-    // audioObj2 = Sonic::addAudioObject("3m40stest.wav", 0, 0, 0);
+     //audioObj1 = Sonic::addAudioObject("input1mono.wav", -1*.866, 0, .866);
+     audioObj2 = Sonic::addAudioObject("3m40stest.wav", 0, 0, 0);
     
     
-    audioObj1 = Sonic::addAudioObject("LITS Voc mono.wav", 0, 1, 0);
+    //audioObj1 = Sonic::addAudioObject("LITS Voc mono.wav", 0, 1, 0);
     //audioObj2 = Sonic::addAudioObject("LITS Piano mono.wav", 0, 1, 0);
-    audioObj3 = Sonic::addAudioObject("LITS Flute mono.wav", 0, 1, 0);
+    //audioObj3 = Sonic::addAudioObject("LITS Flute mono.wav", 0, 1, 0);
     //audioObj4 = Sonic::addAudioObject("LITS Amb mono.wav", 0, 1, 0);
     
     
